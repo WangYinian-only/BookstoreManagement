@@ -1,0 +1,71 @@
+E:\文档\Visual Studio 2017\Projects\BookstoreManagement\BookstoreManagement\bin\Debug\BookstoreManagement.exe.config
+E:\文档\Visual Studio 2017\Projects\BookstoreManagement\BookstoreManagement\bin\Debug\BookstoreManagement.exe
+E:\文档\Visual Studio 2017\Projects\BookstoreManagement\BookstoreManagement\bin\Debug\BookstoreManagement.pdb
+E:\文档\Visual Studio 2017\Projects\BookstoreManagement\BookstoreManagement\bin\Debug\BunifuDataViz.dll
+E:\文档\Visual Studio 2017\Projects\BookstoreManagement\BookstoreManagement\obj\Debug\BookstoreManagement.Controls.PurchaseDetails.resources
+E:\文档\Visual Studio 2017\Projects\BookstoreManagement\BookstoreManagement\obj\Debug\BookstoreManagement.login.resources
+E:\文档\Visual Studio 2017\Projects\BookstoreManagement\BookstoreManagement\obj\Debug\BookstoreManagement.Forms.Form_AddNewBook.resources
+E:\文档\Visual Studio 2017\Projects\BookstoreManagement\BookstoreManagement\obj\Debug\BookstoreManagement.Forms.Form_DashBoard.resources
+E:\文档\Visual Studio 2017\Projects\BookstoreManagement\BookstoreManagement\obj\Debug\BookstoreManagement.Controls.Sales.resources
+E:\文档\Visual Studio 2017\Projects\BookstoreManagement\BookstoreManagement\obj\Debug\BookstoreManagement.Forms.Form_Finish.resources
+E:\文档\Visual Studio 2017\Projects\BookstoreManagement\BookstoreManagement\obj\Debug\BookstoreManagement.Properties.Resources.resources
+E:\文档\Visual Studio 2017\Projects\BookstoreManagement\BookstoreManagement\obj\Debug\BookstoreManagement.Controls.Home.resources
+E:\文档\Visual Studio 2017\Projects\BookstoreManagement\BookstoreManagement\obj\Debug\BookstoreManagement.csproj.GenerateResource.cache
+E:\文档\Visual Studio 2017\Projects\BookstoreManagement\BookstoreManagement\obj\Debug\BookstoreManagement.csproj.CoreCompileInputs.cache
+E:\文档\Visual Studio 2017\Projects\BookstoreManagement\BookstoreManagement\obj\Debug\BookstoreManagement.csproj.CopyComplete
+E:\文档\Visual Studio 2017\Projects\BookstoreManagement\BookstoreManagement\obj\Debug\BookstoreManagement.exe
+E:\文档\Visual Studio 2017\Projects\BookstoreManagement\BookstoreManagement\obj\Debug\BookstoreManagement.pdb
+E:\文档\Visual Studio 2017\Projects\BookstoreManagement\BookstoreManagement\obj\Debug\BookstoreManagement.csprojAssemblyReference.cache
+E:\文档\Visual Studio 2017\Projects\BookstoreManagement\BookstoreManagement\obj\Debug\BookstoreManagement.Forms.Form_AddCategory.resources
+E:\文档\Visual Studio 2017\Projects\BookstoreManagement\BookstoreManagement\obj\Debug\BookstoreManagement.Forms.Form_AddStock.resources
+E:\文档\Visual Studio 2017\Projects\BookstoreManagement\BookstoreManagement\obj\Debug\BookstoreManagement.Controls.ManageExpense.resources
+E:\文档\Visual Studio 2017\Projects\BookstoreManagement\BookstoreManagement\obj\Debug\BookstoreManagement.Forms.From_AddExpense.resources
+E:\文档\Visual Studio 2017\Projects\BookstoreManagement\BookstoreManagement\obj\Debug\BookstoreManagement.Controls.ManageUser.resources
+E:\文档\Visual Studio 2017\Projects\BookstoreManagement\BookstoreManagement\obj\Debug\BookstoreManagement.Controls.ViewSales.resources
+F:\3.我的文件夹\C# 项目\BookstoreManagement\BookstoreManagement\bin\Debug\BookstoreManagement.exe.config
+F:\3.我的文件夹\C# 项目\BookstoreManagement\BookstoreManagement\bin\Debug\BookstoreManagement.exe
+F:\3.我的文件夹\C# 项目\BookstoreManagement\BookstoreManagement\bin\Debug\BookstoreManagement.pdb
+F:\3.我的文件夹\C# 项目\BookstoreManagement\BookstoreManagement\bin\Debug\MySql.Data.dll
+F:\3.我的文件夹\C# 项目\BookstoreManagement\BookstoreManagement\obj\Debug\BookstoreManagement.Controls.BillManage.resources
+F:\3.我的文件夹\C# 项目\BookstoreManagement\BookstoreManagement\obj\Debug\BookstoreManagement.Controls.BookAdd.resources
+F:\3.我的文件夹\C# 项目\BookstoreManagement\BookstoreManagement\obj\Debug\BookstoreManagement.Controls.BorrowManage.resources
+F:\3.我的文件夹\C# 项目\BookstoreManagement\BookstoreManagement\obj\Debug\BookstoreManagement.Controls.ManageUser.resources
+F:\3.我的文件夹\C# 项目\BookstoreManagement\BookstoreManagement\obj\Debug\BookstoreManagement.Controls.QueryInfo.resources
+F:\3.我的文件夹\C# 项目\BookstoreManagement\BookstoreManagement\obj\Debug\BookstoreManagement.Controls.ReaderManage.resources
+F:\3.我的文件夹\C# 项目\BookstoreManagement\BookstoreManagement\obj\Debug\BookstoreManagement.Forms.Form_BorrowEdit.resources
+F:\3.我的文件夹\C# 项目\BookstoreManagement\BookstoreManagement\obj\Debug\BookstoreManagement.Forms.Form_EditReader.resources
+F:\3.我的文件夹\C# 项目\BookstoreManagement\BookstoreManagement\obj\Debug\BookstoreManagement.Forms.Form_SystemSet.resources
+F:\3.我的文件夹\C# 项目\BookstoreManagement\BookstoreManagement\obj\Debug\BookstoreManagement.Login.resources
+F:\3.我的文件夹\C# 项目\BookstoreManagement\BookstoreManagement\obj\Debug\BookstoreManagement.Forms.Form_EditBook.resources
+F:\3.我的文件夹\C# 项目\BookstoreManagement\BookstoreManagement\obj\Debug\BookstoreManagement.Forms.Form_DashBoard.resources
+F:\3.我的文件夹\C# 项目\BookstoreManagement\BookstoreManagement\obj\Debug\BookstoreManagement.Properties.Resources.resources
+F:\3.我的文件夹\C# 项目\BookstoreManagement\BookstoreManagement\obj\Debug\BookstoreManagement.Controls.Home.resources
+F:\3.我的文件夹\C# 项目\BookstoreManagement\BookstoreManagement\obj\Debug\BookstoreManagement.csproj.GenerateResource.Cache
+F:\3.我的文件夹\C# 项目\BookstoreManagement\BookstoreManagement\obj\Debug\BookstoreManagement.exe.licenses
+F:\3.我的文件夹\C# 项目\BookstoreManagement\BookstoreManagement\obj\Debug\BookstoreManagement.exe
+F:\3.我的文件夹\C# 项目\BookstoreManagement\BookstoreManagement\obj\Debug\BookstoreManagement.pdb
+E:\桌面\BookstoreManagement\BookstoreManagement\bin\Debug\BookstoreManagement.exe.config
+E:\桌面\BookstoreManagement\BookstoreManagement\bin\Debug\BookstoreManagement.exe
+E:\桌面\BookstoreManagement\BookstoreManagement\bin\Debug\BookstoreManagement.pdb
+E:\桌面\BookstoreManagement\BookstoreManagement\bin\Debug\MySql.Data.dll
+E:\桌面\BookstoreManagement\BookstoreManagement\obj\Debug\BookstoreManagement.Controls.BillManage.resources
+E:\桌面\BookstoreManagement\BookstoreManagement\obj\Debug\BookstoreManagement.Controls.BookAdd.resources
+E:\桌面\BookstoreManagement\BookstoreManagement\obj\Debug\BookstoreManagement.Controls.BorrowManage.resources
+E:\桌面\BookstoreManagement\BookstoreManagement\obj\Debug\BookstoreManagement.Controls.ManageUser.resources
+E:\桌面\BookstoreManagement\BookstoreManagement\obj\Debug\BookstoreManagement.Controls.QueryInfo.resources
+E:\桌面\BookstoreManagement\BookstoreManagement\obj\Debug\BookstoreManagement.Controls.ReaderManage.resources
+E:\桌面\BookstoreManagement\BookstoreManagement\obj\Debug\BookstoreManagement.Forms.Form_BillManager.resources
+E:\桌面\BookstoreManagement\BookstoreManagement\obj\Debug\BookstoreManagement.Forms.Form_BorrowEdit.resources
+E:\桌面\BookstoreManagement\BookstoreManagement\obj\Debug\BookstoreManagement.Forms.Form_EditReader.resources
+E:\桌面\BookstoreManagement\BookstoreManagement\obj\Debug\BookstoreManagement.Forms.Form_SystemSet.resources
+E:\桌面\BookstoreManagement\BookstoreManagement\obj\Debug\BookstoreManagement.Login.resources
+E:\桌面\BookstoreManagement\BookstoreManagement\obj\Debug\BookstoreManagement.Forms.Form_EditBook.resources
+E:\桌面\BookstoreManagement\BookstoreManagement\obj\Debug\BookstoreManagement.Forms.Form_DashBoard.resources
+E:\桌面\BookstoreManagement\BookstoreManagement\obj\Debug\BookstoreManagement.Properties.Resources.resources
+E:\桌面\BookstoreManagement\BookstoreManagement\obj\Debug\BookstoreManagement.Controls.Home.resources
+E:\桌面\BookstoreManagement\BookstoreManagement\obj\Debug\BookstoreManagement.csproj.GenerateResource.cache
+E:\桌面\BookstoreManagement\BookstoreManagement\obj\Debug\BookstoreManagement.exe.licenses
+E:\桌面\BookstoreManagement\BookstoreManagement\obj\Debug\BookstoreManagement.csproj.CoreCompileInputs.cache
+E:\桌面\BookstoreManagement\BookstoreManagement\obj\Debug\BookstoreManagement.csproj.CopyComplete
+E:\桌面\BookstoreManagement\BookstoreManagement\obj\Debug\BookstoreManagement.exe
+E:\桌面\BookstoreManagement\BookstoreManagement\obj\Debug\BookstoreManagement.pdb

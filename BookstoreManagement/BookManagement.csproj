@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{89C61FBC-F0C0-42DB-89CB-60670C32AFB0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>BookstoreManagement</RootNamespace>
+    <AssemblyName>BookstoreManagement</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>E:\桌面\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>5D15136B09AF0ED6F5E559BBB11701DEF936BDEF</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>BookManagement_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Office.Interop.Excel.15.0.4795.1000\lib\net20\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="MySql.Data, Version=5.2.3.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controls\BillManage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\BillManage.Designer.cs">
+      <DependentUpon>BillManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\BookAdd.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\BookAdd.Designer.cs">
+      <DependentUpon>BookAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\BorrowManage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\BorrowManage.Designer.cs">
+      <DependentUpon>BorrowManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ManageUser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ManageUser.Designer.cs">
+      <DependentUpon>ManageUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\QueryInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\QueryInfo.Designer.cs">
+      <DependentUpon>QueryInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ReaderManage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ReaderManage.Designer.cs">
+      <DependentUpon>ReaderManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer\DragControl.cs" />
+    <Compile Include="Forms\Form_BillManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form_BillManager.Designer.cs">
+      <DependentUpon>Form_BillManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form_BorrowEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form_BorrowEdit.Designer.cs">
+      <DependentUpon>Form_BorrowEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form_EditReader.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form_EditReader.Designer.cs">
+      <DependentUpon>Form_EditReader.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form_SystemSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form_SystemSet.Designer.cs">
+      <DependentUpon>Form_SystemSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form_EditBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form_EditBook.Designer.cs">
+      <DependentUpon>Form_EditBook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form_DashBoard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form_DashBoard.Designer.cs">
+      <DependentUpon>Form_DashBoard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Controls\Home.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Util\DBHelper.cs" />
+    <EmbeddedResource Include="Controls\BillManage.resx">
+      <DependentUpon>BillManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\BookAdd.resx">
+      <DependentUpon>BookAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\BorrowManage.resx">
+      <DependentUpon>BorrowManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ManageUser.resx">
+      <DependentUpon>ManageUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\QueryInfo.resx">
+      <DependentUpon>QueryInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ReaderManage.resx">
+      <DependentUpon>ReaderManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form_BillManager.resx">
+      <DependentUpon>Form_BillManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form_BorrowEdit.resx">
+      <DependentUpon>Form_BorrowEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form_EditReader.resx">
+      <DependentUpon>Form_EditReader.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form_SystemSet.resx">
+      <DependentUpon>Form_SystemSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form_EditBook.resx">
+      <DependentUpon>Form_EditBook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form_DashBoard.resx">
+      <DependentUpon>Form_DashBoard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Controls\Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="BookManagement_TemporaryKey.pfx" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="id_pwd\PasswordConfig.txt" />
+    <Content Include="id_pwd\TimeConfig.txt" />
+    <None Include="Resources\图书馆 %282%29.png" />
+    <None Include="Resources\图书馆 %281%29.png" />
+    <None Include="Resources\关闭.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
